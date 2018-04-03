@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    tools:context="com.example.nabil.theinstituteofus.byus">
+    <TextView
+        android:id="@+id/ww"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#fff"
+        android:fontFamily="casual"
+        android:textSize="23dp"
+        android:text="By : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/name1"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="130dp"
+       android:textColor="#00cca3"
+       android:background="#aa000000"
+       android:fontFamily="casual"
+       android:textSize="23dp"
+       android:text="Developer / NAbil FAWZY"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_below="@id/name1"
+        android:id="@+id/name5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#00cca3"
+        android:fontFamily="casual"
+        android:textSize="23dp"
+        android:text="N@01141942205"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

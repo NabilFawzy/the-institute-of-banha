@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    tools:context="com.example.nabil.theinstituteofus.callus">
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textSize="35dp"
+        android:text=" أتصل بنا "
+        android:background="#af00cca3"
+        android:layout_width="match_parent"
+        android:id="@+id/d1"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/vt"
+        android:layout_below="@id/d1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/colorPrimaryDark" />
+    <TextView
+        android:id="@+id/cxccc"
+        android:layout_below="@id/vt"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="الموقع الالكترونى : "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#004d4d"
+        android:fontFamily="serif"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/cxccc"
+        android:id="@+id/tttcc"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="38dp"
+        android:text="http://itib.ucoz.org/"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cxc"
+        android:layout_below="@id/tttcc"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="العنوان :"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#004d4d"
+        android:fontFamily="serif"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/cxc"
+        android:id="@+id/ttt"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="  كورنيش الرياح التوفيقى خلف مدرسة الثانوية الميكانيكة ببنها"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cxcc"
+        android:layout_below="@id/ttt"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="الموبايل :"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#004d4d"
+        android:fontFamily="serif"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/cxcc"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="                                                0133282949
+"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    tools:context="com.example.nabil.theinstituteofus.booksdir">
+    <Spinner
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerferaabook"
+        android:entries="@array/bookscat"/>
+    <RelativeLayout
+        android:background="#aa000000"
+        android:layout_below="@id/spinnerferaabook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridView
+            android:stretchMode="columnWidth"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/gridviewbooks"
+            android:numColumns="auto_fit"
+            android:gravity="center"
+            android:columnWidth="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>
